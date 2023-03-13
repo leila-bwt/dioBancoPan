@@ -50,3 +50,7 @@ Tipo de de dados são palavras reservadas para a construção de programas e seu
 Variável é uma identificação de um espaço de memória utilizado pelo nosso programa. É composta por:
 tipo de dados + identificação + valor atribuído
 >>Java é fortemente tipado<<
+
+Constantes: 
+São valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada 'final', seguidao do tipo.
+Por convernção, Constantes são sempre escritas em CAIXA ALTA. 
