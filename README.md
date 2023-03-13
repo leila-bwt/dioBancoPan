@@ -1,8 +1,7 @@
 # Repositório do desafio de projeto sobre Git/Github da DIO
 
 Github básico bootcamp DIO / Banco Pan.
-
-
+ 
 Java Básico
 *Nome da classe em camelCase
 *Nome do arquivo deve ter o mesmo nome da classe.
@@ -46,3 +45,8 @@ Métodos: deverão ser nomeados como verbos, através de uma mistura de letras m
 
 TIPOS E VARIÁVEIS
 
+Tipo de de dados são palavras reservadas para a construção de programas e seus tipos de dados são conhecidos como tipos primitimos. São eles: int, byte, short, long, double, boolean e char.
+
+Variável é uma identificação de um espaço de memória utilizado pelo nosso programa. É composta por:
+tipo de dados + identificação + valor atribuído
+>>Java é fortemente tipado<<
