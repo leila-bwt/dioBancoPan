@@ -54,3 +54,24 @@ tipo de dados + identificação + valor atribuído
 Constantes: 
 São valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada 'final', seguidao do tipo.
 Por convernção, Constantes são sempre escritas em CAIXA ALTA. 
+
+---------------------------------------
+
+OPERADORES
+Símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações.
+Operadores realizam operações com a finalidade de um determinado resultado.
+
+Classificando os Operadores
+
+Atribuição (=) Define valor inicial ou subscreve valor de uma variável.
+
+Cada tipo de dado tem uma forma de declarar seus respectivo valor a essa variável:
+Strinh nome = "Leila";
+int idade = 37;
+double peso = 53.7;
+char sexo = 'F';
+boolean doadorOrgao = true;
+Data dataNscimento = new Date();
+
+
+Aritméticos
