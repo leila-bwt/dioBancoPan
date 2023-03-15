@@ -73,5 +73,10 @@ char sexo = 'F';
 boolean doadorOrgao = true;
 Data dataNscimento = new Date();
 
-
-Aritméticos
+15/03
+Unário: São aplicados juntamente com um outro operador artimético realizando alguns trabalhos básicos como incrementar, decrementar, inverter valores numériocos e booleanos.
+(+) Operador unário de valor positivo - números são positivos sem esse operador explicitamente;
+(-) Operador unário de valor negativo - nega um numero ou expressão aritmética;
+(++) Operador unário de incremento de valor - incrementa o valor em 1 unidade;
+(--) Operador unário de decremento de valor - decrementa o valor em 1 unidade;
+(!) Operador uário lógico de negação - nega o valor de um aexpressão booleana;
