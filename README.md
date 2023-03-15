@@ -84,3 +84,16 @@ Unário: São aplicados juntamente com um outro operador artimético realizando 
 Ternário: Condição ternária é uma forma resumida para definir uma condição e escolher dentre dois valores. Deve-se pensar como se fosse uma condição IF normal, porém de uma forma em que toda a sua entrutura estará escrita numa única linha.
 É representado pelos símbolos ?:
 <Expressao Condicional> ? <Casocondição seja true> : <Caso condição seja false>
+
+
+Relacionais: Avaliam a relação entre duas variáveias ou expressões. Neste caso, mais precisamente, definem se o operando À esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual aos da diretia, retornando um valor booleano como resultado.
+
+== Verificar se varivável é IGUAL a outra;
+!= Verificar se variável é DIFERENTE da outra;
+> Verificar se variável é MAIOR QUE a outra;
+>= Verificar se variável é MAIOR OU IGUAL a outra;
+< Verificar se variável é MENOR que outra;
+<= Verificar se variável é MENOR OU IGUAL a outra. 
+
+Os operadores relacionais são usados para verificarconteúdo numerico.
+No Java, numeros e objetos são guardados em diferentes espaços de memória, então para comparação de objetos é utilizado a palavra reservada 'equals' para comparar conteúdos.
