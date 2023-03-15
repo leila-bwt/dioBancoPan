@@ -1,27 +1,19 @@
 public class Operadores {
 
     public static void main(String[] args) {
-        int numero = 5;
+        int a, b, c, d;
 
-        numero = numero + 2;
+        a = 5;
+        b = 6;
+        String resultado = a == b ? "verdadeiro" : "falso";
 
-        System.out.println(numero);
+        System.out.println(resultado);
 
-        numero++;
+        c = 8;
+        d = 8;
+        String resultado2 = c == d ? "verdadeiro" : "falso";
 
-        System.out.println(numero);
+        System.out.println(resultado2);
 
-        System.out.println(numero++);
-        System.out.println(++numero);
-
-        System.out.println(--numero);
-
-        boolean variavel = true;
-        System.out.println(!variavel);
-        System.out.println(variavel);
-
-        variavel = !variavel;
-        System.out.println(variavel);
     }
-
 }

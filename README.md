@@ -80,3 +80,7 @@ Unário: São aplicados juntamente com um outro operador artimético realizando 
 (++) Operador unário de incremento de valor - incrementa o valor em 1 unidade;
 (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade;
 (!) Operador uário lógico de negação - nega o valor de uma expressão booleana;
+
+Ternário: Condição ternária é uma forma resumida para definir uma condição e escolher dentre dois valores. Deve-se pensar como se fosse uma condição IF normal, porém de uma forma em que toda a sua entrutura estará escrita numa única linha.
+É representado pelos símbolos ?:
+<Expressao Condicional> ? <Casocondição seja true> : <Caso condição seja false>
