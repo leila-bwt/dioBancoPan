@@ -79,4 +79,4 @@ Unário: São aplicados juntamente com um outro operador artimético realizando 
 (-) Operador unário de valor negativo - nega um numero ou expressão aritmética;
 (++) Operador unário de incremento de valor - incrementa o valor em 1 unidade;
 (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade;
-(!) Operador uário lógico de negação - nega o valor de um aexpressão booleana;
+(!) Operador uário lógico de negação - nega o valor de uma expressão booleana;
