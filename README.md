@@ -97,3 +97,59 @@ Relacionais: Avaliam a relação entre duas variáveias ou expressões. Neste ca
 
 Os operadores relacionais são usados para verificarconteúdo numerico.
 No Java, numeros e objetos são guardados em diferentes espaços de memória, então para comparação de objetos é utilizado a palavra reservada 'equals' para comparar conteúdos.
+
+------------------------------------------------------------------
+
+MÉTODOS
+Uma classe é definida por atributos e métodos. Métodos correspondem a funções ou sub-rotinas disponíveis dentro de nossa classe.
+
+Critérios de nomeação: não são obrigatórios porém ao tulitizarmos, tornamos o código mais legivel para nós e tb para outros devs.
+**Deve ser nomeado como verbo
+**Seguir padrão camelCase.
+
+ATENÇÃO!!! Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE  ser definidos dentro de uma classe.
+
+Critérios de Deginição de Métodos
+Qual a proposta principal do método? Se perguntar constantemente até compreender a real finalidade do mesmo.
+
+Qual o tiupo de retorno esperado após a execução do método? Analisar se o método será responsável por retornar algum valor ou não.
+
+Qual a visibilidade do método? O método deve ser visívek a toda a aplicação, somente em mesmo pacotes, através de herança ou somente a nível da própria classe.
+
+VEJA OS EXEMPLOS A SEGUIR:
+
+  somar(int n1, int n2){}
+
+    abrirConexao(){}
+
+    fingById(int id){}
+
+    calcularImprimir(){} // o método deve ter apenas uma função.
+
+    public double somar(int num1, int num2){
+        //LOGICA - FINALIDADE DO METODOS
+        return ...;
+    }    
+
+    public void imprimir(String texto){
+        //NÃO PRECISA DO RETURN POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
+    
+        public double dividir(int dividendo, int divisor) thows Exception{}
+        //throws Exception: indica que o método ao ser utilizado poderá gerar uma exceção.
+
+        public void metodoPrivado(){}
+        //método não pode ser visto por outras classes no projeto
+    
+        public void validar(){}
+        //este metodo deveria retornar algum valor
+        //no caso boolean(true or false)
+
+        public void gravarCliente(String nome, String CPF, Integer )
+        //este metodo tem a finalidade de gravar
+        //informações de um cliente, por que não criar um objeto cliente e passar como parametro?
+    
+        public void gravarCliente(Cliente cliente){}
+        //ou
+        public void gravar(Cliente cliente){}
+    }
+}
