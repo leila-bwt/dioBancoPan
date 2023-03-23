@@ -153,3 +153,171 @@ VEJA OS EXEMPLOS A SEGUIR:
         public void gravar(Cliente cliente){}
     }
 }
+ ---------------------------------------------------------------
+
+        ESCOPO
+        Ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+        A variável é criada no primeiro acesso à ela, se tornando inacessível após o interpretador sair do bloco de execução ao qual ela pertence. Portanto, esta variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de declaração, ou seja, fora do escopo da variável.
+
+        Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portanto acessíveis port todos os métodos.
+
+        Caso você declare uma variável DENTRO DE UM MÉTODO, o esocpo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
+
+        Uma parte fundamental na elaboração de algoritmos simples ou complexos é determinar a localização do código em questão. Sem um dominio sobre escopo de códigos seu projeto tende a conter falhas estruturais e comprometer a proposta principal da aplicação.
+
+----------------------------------------------------------------
+
+        PALAVRAS RESERVADAS: são identificadores de uma linguagem que já possuem uma finalidade especificas, portanto não podem ser utilizadas para nomear variáveis, metodos ou atributos.
+
+        A lingiagem Java possui 52 palavras reservadas. Todas essas palavras são classificadas em grupos e escritras com letra minuscula, sendo identificadas com uma cor especial pela maioria das IDE's. 
+
+        Controle de pacotes:
+        * import: importa pacotes ou classes para dentro do código
+
+        * package: especifica a que pacote todas as classes de um arquivo pertencem 
+
+
+        Modificadores de acesso:
+        * public: acesso de qualquer classe
+
+        * private: acesso apenas dentro da classe
+
+        * protected: acesso por classes no mesmo pacote e subclasses
+
+
+        Primitivos:
+        * boolean: um valor indicado verdadeiro ou falso
+
+        * byte: um inteiro de 8 bits (signed)
+
+        * char: um caracter unicode (16-bit unsigned)
+
+        * double: um numero de ponto flutuante de 64 bits (signed)
+
+        * float: um numero de ponto flutuante de 32 bits (signed)
+
+        * int: um inteiro de 32 bits (signed)
+
+        * long: um inteiro de de 64 bits (signed)
+
+        * short: um inteiro de 32 bits (signed)
+
+        * void:  indica que o método não tem retorno de valor
+
+
+        Modificadores de classes, variáveis ou métodos
+        * abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+
+        * class: especifica uma classe
+
+        * extends: indica a superclasse que a bisclasse está estendendo
+
+        * final: impossibilita que uma classe seja estendida, que um método seja subrescrito ou que uma variável seja reinicializada
+
+        * implements: indica as interfaces que uma classe irá implementar
+
+        * interface: especifica uma interface
+
+        * native: indica que um método está escrito em uma linguagem dependenete de plataforma, como o C
+
+        * new: instancia um novo objeto, chamando seu construtor
+
+        * static: faz um método ou variável pertencer à classe ao invés de às instancias
+
+        * strictfp: usado em frente a um método ou clase para indicar que os numeros de ponto flutuante seguirão as regras de ponto flutuante em todas as expressoes
+
+        * sunchronized: indica que um método só pode ser acessado por uma thread de cada vez
+
+        * transient: impede a serialização de campos
+
+        * volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+
+        Controle de fluxo dentro de um bloco de código
+        * brek: sai do bloco de codigo em que ele está
+
+        * case: executa um bloco de código dependendo do teste do switch
+
+        * continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+
+        Tratamento de erros
+        * assert: testa uma expressão condicional para verificar uma suposição do programador
+
+        * catch: declara o bloco de código usado para tratar uma exceção
+
+        * finally: bloco de código, após um try-catch, que é executado independete do fluxo de programa seguido ao lidar com uma exceção
+
+        * throw: usado para passar uma exceção para o método que o chamou
+
+        * throws: indica que um étodo pode passar uma exceção para o método que o chamou
+
+        * try: bloco de código que tentará ser executado, mas que pode causar uma exceção.
+
+
+        Variáveis de referências:
+        * super: refere-se a superclasse imediata
+
+        *this: refere-se a instância atual do objeto
+
+
+        De acordo com o Java anguage Specification, null, true e false são tecnicamente chamados de valores literias, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
+
+
+        Uso correspondente:
+        >> Arquivo: package, import, static
+
+        >> Classe: public OU protected OU private + final OU abstract + extends OU implements
+
+        >> Métodos: public OU protected OU private + static OU final OU abstract + void e return
+
+        >> Atributo: public OU protected OU private + static OU final + tipo primitivo
+
+
+        Palavras "opostas"
+        Assim como nas classificações gramaticais da língua portuguesa, eistem algumas palabras que são completamente opostas (antônimas) na lingua Java:
+
+        PACKAGE define o pacote da classe atual enquanto IMPORT são as classes dependeNtes que não estão no mesmo pacote que precisa ser importando
+
+        Tem finalidade de usar a herança EXTENDS determina uma classe ou interface OU uma classe pode usar o IMPLEMENTS para implementaR outra INTERFACE
+        
+
+        FINAL determina a ultima lógica da aplicação  ou ultimo valor da variável. Para métodos determinanos ABSTRACT
+        
+        
+        THROWS dispara uma exceção determina o método que pode gerar uma exceção já o THROW é a geração de uma exceção, disparta nova exceção na aplicação.
+
+        --------------------------------------------------------
+
+        DOCUMENTAÇÃO
+        Uma das principais caracteristicas da linguagem Java é uma documentação rica e detaçhada dos recursos da linguagem. 
+
+        Tags: java Documentation é composto por tags que representam dados relevantes para a compreensão da proposta de uma classe e os conjuntos de seus métodos e atributos.
+        @autor - Autor / Criador
+
+        @version - Versão do recurso disponibilizado
+
+        @since - Versão / Data de início da disponibilidade do recurso
+
+        @param - Descrição dos parâmetros dos métodos criados
+
+        @return - Definição do tipo de retorno de um método
+
+        @throws - Se o método lança alguma exceção
+
+        
+        Javadoc é um gerador de documentação para documentar a API dos programas em Java, a partir do código-fonte. O resultado é expresso em HTML. É constituido, basicamente, por algumas marcações muito cimples inseridas nos comentatios do programa.
+        
+        Este sistema é padrão de documentação de classes em Java, e muitas dos IDEs desta linguagem irão automaticamente gerar um Javadoc em HTML 
+
+        No terminal execute o comando:
+        javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*java
+        
+
+
+
+
+
+
+
