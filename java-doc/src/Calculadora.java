@@ -1,4 +1,4 @@
-package javadoc;
+
 /**
  * <h1>Calculadora</h1>
  * A Calculadora realiza operações matemáticas entre números inteiros
@@ -11,7 +11,7 @@ package javadoc;
  * @since 23/03/2023
  */
 
-public class CalculadoraJavaDoc {
+public class Calculadora {
     /**
      * Este método é utilizado para somar dois numeros interios
      * 
